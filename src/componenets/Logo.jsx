@@ -1,7 +1,7 @@
 const Logo = () => {
   return (
-    <div className="logo h-16 w-16">
-      <img src="./Hikw.png" alt="Logo-img" />
+    <div className="logo w-20" >
+      <img src="./Hikw.png" alt="Logo-img"  />
     </div>
   );
 };

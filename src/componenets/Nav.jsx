@@ -11,9 +11,9 @@ const NavLinks = () => {
       <NavLink to="/">Community</NavLink>
       <NavLink to="/">Blog</NavLink>
       <NavLink to="/">Login</NavLink>
-      <NavLink to="/">
-        <button>Getting started</button>
-      </NavLink>
+      <button className="rounded-full  border-0 bg-black text-white">
+        <NavLink to="/" className="p-3">Getting started</NavLink>
+      </button>
     </>
   );
 };
